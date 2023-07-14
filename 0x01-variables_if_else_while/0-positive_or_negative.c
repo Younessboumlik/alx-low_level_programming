@@ -12,7 +12,7 @@ int main(void)
 		/* your code goes there */
 		if (n>0)
 		{
-			printf("%d is negative",n);
+			printf("%d is positive",n);
 		}
 		else if (n==0)
 	        {
@@ -20,7 +20,7 @@ int main(void)
                 }
 		else
                 {
-                        printf("%d is positive",i);
+                        printf("%d is negative",n);
                 }
 		return (0);
 }
