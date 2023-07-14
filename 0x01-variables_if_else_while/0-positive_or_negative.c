@@ -2,10 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- * *this program just show youb if the number is positive , negative or equal to zero.
- * * it is easy using the if statements , easy.
- */
+/**
+ *  * main - Determines if a number is positive, negative or zero.
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
+
 int main(void)
 {
 	int n;
