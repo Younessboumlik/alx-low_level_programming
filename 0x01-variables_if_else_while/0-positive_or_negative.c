@@ -3,11 +3,13 @@
 #include <stdio.h>
 
 /**
- *  * main - Determines if a number is positive, negative or zero.
- *   *
- *    * Return: Always 0 (Success)
- *     */
-
+ * main - Entry point of the program
+ *
+ * Description: Generates a random number and determines if it's positive,
+ *              negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
