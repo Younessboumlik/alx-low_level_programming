@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char num[9]="123456789";
+	char num[9] = "123456789";
 	int i;
 	for (i = 0; i < 10; i++)
 	{	
-		putchar(alp[i]);
+		putchar(num[i]);
 	}
 	putchar('\n');
 	return (0);
