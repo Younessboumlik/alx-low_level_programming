@@ -4,8 +4,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: Generates a random number and determines if it's positive,
- *              negative, or zero.
+ * Description: just playing with numbers.
+ *              
  *
  * Return: Always 0 (Success)
  */
