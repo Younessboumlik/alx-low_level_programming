@@ -9,5 +9,5 @@
 
 int main()
 {
-	void print();
+	char *print();
 }
