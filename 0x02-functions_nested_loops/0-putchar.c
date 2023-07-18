@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * **
- * *The main function work.
- * **
- * *The function print _putchar
- * **
- * */
+ **
+ *The main function work.
+ **
+ *The function print _putchar
+ **
+ */
 
-int main()
+int main(void)
 {
 	printtt();
-	return 0;
+	return (0);
 }
