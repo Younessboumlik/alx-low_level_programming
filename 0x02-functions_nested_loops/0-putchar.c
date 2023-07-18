@@ -10,5 +10,6 @@
 
 int main()
 {
-	    printtt();
+	printtt();
+	return 0;
 }
