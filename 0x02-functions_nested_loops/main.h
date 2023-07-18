@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-/*
- **
- *The main program work.
- **
- *The program just print _putchar
- */
+/**
+ * **
+ * *The main function work.
+ * **
+ * *The function print _putchar
+ * **
+ * */
 
-char *print()
+void printtt()
 {
-	return ("_putchar\n");
+	    printf("_putchar\n");
 }

@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- **
- * The main function will work
- **
- *The program print _putchar
- */
+ * **
+ * *The main function work.
+ * **
+ * *The function print _putchar
+ * **
+ * */
 
 int main()
 {
-	char *print();
+	    printtt();
 }
