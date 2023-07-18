@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_alphabet(void);
+void print_alphabet();
 
 /**
  * main - Entry point of the program
@@ -16,7 +16,7 @@ int main(void)
 /**
  * print_alphabet - Prints the English alphabet in lowercase
  */
-void print_alphabet(void)
+void print_alphabet()
 {
     int i;
 
