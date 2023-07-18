@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void print_alphabet();
+void print_alphabet(void);
 /**
  * print_alphabet - Prints the English alphabet in lowercase
  */
-void print_alphabet()
+void print_alphabet(void);
 {
     int i;
 
