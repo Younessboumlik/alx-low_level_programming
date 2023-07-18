@@ -1,18 +1,6 @@
 #include <stdio.h>
 
 void print_alphabet();
-
-/**
- * main - Entry point of the program
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    print_alphabet();
-    return 0;
-}
-
 /**
  * print_alphabet - Prints the English alphabet in lowercase
  */
@@ -25,3 +13,15 @@ void print_alphabet()
         putchar(i);
     }
 }
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    print_alphabet();
+    return 0;
+}
+
+
