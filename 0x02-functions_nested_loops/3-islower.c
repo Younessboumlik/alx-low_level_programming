@@ -2,7 +2,8 @@
 
 /**
  * _islower-check if number is lower.
- *Return 1 or 0 in different case.
+ * @c: is the char who we will check.
+ *Return: 1 or 0 in different case.
  */
 
 int _islower(int c)
