@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * Return-1 or 0 
+ * _isupper - if c is upper or not 
  * @c: is the input
- * _isupper: if c is upper or not
+ * Return: 1 or 0
  */
 
 int _isupper(int c) 
@@ -14,6 +14,6 @@ int _isupper(int c)
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
