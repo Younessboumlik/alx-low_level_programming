@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mul(int a, int b) - mult a and b
+ * mul - mult a and b
  *
  * @a: int
  * @b: int
@@ -10,5 +10,5 @@
 
 int mul(int a, int b)
 {
-	return (a*b);
+	return (a * b);
 }
