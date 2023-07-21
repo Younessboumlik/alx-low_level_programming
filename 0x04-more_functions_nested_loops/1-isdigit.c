@@ -14,5 +14,7 @@ int int_isdigit(int c)
 		return (1);
 	}
 	else
+	{
 		return (0);
+	}
 }
