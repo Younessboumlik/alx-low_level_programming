@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _isupper - if c is upper or not 
  * @c: is the input
  * Return: 1 or 0
