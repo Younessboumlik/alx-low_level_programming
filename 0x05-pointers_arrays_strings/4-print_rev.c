@@ -10,7 +10,6 @@
 void print_rev(char *s)
 {
 	int n = 0;
-	char *p=s;
 	int i;
 	int j=0;
 
@@ -19,9 +18,12 @@ void print_rev(char *s)
 		s=s+1;
 		n=n+1;
 	}
+
+	char p[n];
+
 	for (i = 0; i < n;i++)
 	{
-	(p+i) = (s+n-1-i);
+	*(p+i) = *(s+n-1-i);
 	}
 	while (p[j] != '\0')
 	{
