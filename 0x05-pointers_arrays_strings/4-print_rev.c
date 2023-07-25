@@ -12,6 +12,7 @@ void print_rev(char *s)
 	int n = 0;
 	char *p=s;
 	int i;
+	int j=0;
 
 	while (*s != '\0')
 	{
@@ -22,4 +23,11 @@ void print_rev(char *s)
 	{
 	*(p+i)=*(s+n-1-i);
 	}
+	while (str[j] != '\0')
+	{
+		_putchar(str[j]);
+		j++;
+	}
+	_putchar('\n');
+	return (0);
 }
