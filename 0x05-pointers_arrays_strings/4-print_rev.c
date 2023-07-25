@@ -21,7 +21,7 @@ void print_rev(char *s)
 	}
 	for (i = 0; i < n;i++)
 	{
-	*(p+i)=*(s+n-1-i);
+	(p+i) = (s+n-1-i);
 	}
 	while (p[j] != '\0')
 	{
