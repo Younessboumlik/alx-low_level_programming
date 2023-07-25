@@ -23,11 +23,10 @@ void print_rev(char *s)
 	{
 	*(p+i)=*(s+n-1-i);
 	}
-	while (str[j] != '\0')
+	while (p[j] != '\0')
 	{
-		_putchar(str[j]);
+		_putchar(p[j]);
 		j++;
 	}
 	_putchar('\n');
-	return (0);
 }
