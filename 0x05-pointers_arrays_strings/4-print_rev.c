@@ -11,6 +11,7 @@ void print_rev(char *s)
 {
 	int n = 0;
 	char *p;
+	int i=0;
 
 	while (*s != '\0')
 	{
@@ -21,5 +22,4 @@ void print_rev(char *s)
 	{
 	*(p+i)=*(s+n-1-i);
 	}
-	_puts(*p);
 }
