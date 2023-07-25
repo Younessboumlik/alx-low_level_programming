@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - reset pointer to 98 value
  *
- *@*n: the pointer
+ *@n: the pointer
  * Return: nothinggg
  */
 
