@@ -25,10 +25,10 @@ void puts_half(char *str)
 	}
 	else
 	{
-		for(i = n-1;i >= ((n-1)/2))
+		for(i = n-1;i >= ((n-1)/2),i--)
 		{
 			_putchar(str[i]);
 		}
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
