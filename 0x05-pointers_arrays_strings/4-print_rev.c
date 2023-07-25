@@ -18,7 +18,7 @@ void print_rev(char *s)
 		s=s+1;
 		n=n+1;
 	}
-	for (int i = 0; i < n;i++)
+	for (i = 0; i < n;i++)
 	{
 	*(p+i)=*(s+n-1-i);
 	}
