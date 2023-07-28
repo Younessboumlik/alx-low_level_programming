@@ -1,6 +1,7 @@
 #include "main.h"
 
-/* reverse_array - reverse an array
+/**
+ * reverse_array - reverse an array
  *
  * @a: the array of integers.
  * @n: the number of the elements in the array.
