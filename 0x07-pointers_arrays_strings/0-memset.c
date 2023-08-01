@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * * _memset - fills first n bytes.
- *
+ * _memset - fills first n bytes.
  * @s: the pointer of a char.
  * @b: the char that we will remplace in s with n bites.
  * @n: number of bits.
