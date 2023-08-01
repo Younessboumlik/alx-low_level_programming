@@ -14,7 +14,7 @@
 
 	for (i = n; i > 0; i--)
 	{
-		dest[n-i] = source[n-i];
+		dest[n - i] = src[n - i];
 	}
 	return (dest);
 }
