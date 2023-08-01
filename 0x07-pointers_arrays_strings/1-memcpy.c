@@ -8,7 +8,7 @@
  * @n: the number of bites.
  */
 
-*_memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	int i;
 
