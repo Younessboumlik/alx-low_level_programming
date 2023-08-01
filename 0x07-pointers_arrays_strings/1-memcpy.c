@@ -6,6 +6,7 @@
  * @dest: the destination.
  * @src: the source.
  * @n: the number of bites.
+ * Return: return the dest char.
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
