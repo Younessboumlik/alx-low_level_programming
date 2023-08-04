@@ -9,7 +9,7 @@
  * Return: the number of args.
  */
 
-int main_1(int argc, char **argv)
+int main1(int argc, char **argv)
 {
 	(void)argv;
 
