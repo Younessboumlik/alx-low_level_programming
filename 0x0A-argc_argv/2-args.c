@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * main - print the args of a program.
@@ -11,7 +11,9 @@
 
 int main(int argc, char **argv)
 {
-	for(i=1; i<argc-1; i++)
+	int i;
+
+	for(i = 1; i < argc; i++)
 	{
 		printf("%s\n",argv[i]);
 	}
