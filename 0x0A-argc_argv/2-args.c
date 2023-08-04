@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** 
+/**
  * main - print the args of a program.
- *
  * @argc: the counter of args.
  * @argv: the values of args.
  * Return: prints the arguments.
