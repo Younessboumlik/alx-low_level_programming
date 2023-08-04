@@ -15,7 +15,7 @@ int verefication(int a, int b)
 	else if (a > b / 2)
 		return (1);
 	else
-		return (check(a + 1, b));
+		return (verefication(a + 1, b));
 }
 
 /**
