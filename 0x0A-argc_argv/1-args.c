@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,10 +9,10 @@
  * Return: the number of args.
  */
 
-int main(int argc, char **argv)
+int main_1(int argc, char **argv)
 {
 	(void)argv;
 
-	printf("%d\n",argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }
