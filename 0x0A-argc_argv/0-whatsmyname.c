@@ -6,6 +6,7 @@
  *
  * @argc: the number of arguments.
  * @argv: the value of arguments.
+ * Return: the name of the program.
  */
 
 int main(int argc, char **argv)
