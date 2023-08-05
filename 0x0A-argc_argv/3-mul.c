@@ -9,7 +9,6 @@
  * @argv: the values of args.
  * Return: the mult of 2 int.
  */
-
 int main(int argc, char **argv)
 {
 	int x, y;
@@ -22,7 +21,6 @@ int main(int argc, char **argv)
 
 	x=atoi(argv[1]);
 	y=atoi(argv[2]);
-
 	printf("%d\n", x * y);
 
 	return (0);
