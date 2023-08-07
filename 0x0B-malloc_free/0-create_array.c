@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 	{
 		for (i=0; i=size-1; i++)
 		{
-			table[i] = c[i];
+			table[i] = c;
 		}
 	}
 	return table;
