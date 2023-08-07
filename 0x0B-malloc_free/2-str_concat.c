@@ -38,10 +38,10 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (i=0; i < n + m + 1; i++)
+	for (i = 0; i < n + m + 1; i++)
 	{
 		if (i < n)
-		{	
+		{
 			new_str[i] = s1[i];
 		}
 		else
