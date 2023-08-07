@@ -13,26 +13,26 @@ char *str_concat(char *s1, char *s2)
 	int n=0, m=0, i=0;
 	char *new_str;
 
-	if (str1 = NULL)
+	if (s1 = NULL)
 	{
-		str1 = ''
+		s1 = '';
 	}
-	if (str2 = NULL)
+	if (s2 = NULL)
 	{
-		str2 = ''
+		s2 = '';
 	}
-	while (*str1)
+	while (*s1)
 	{
 		n = n + 1;
-		str1 = str1 + 1;
+		s1 = s1 + 1;
 	}
-	str1 = str1 - n;
-	while (*str2)
+	s1 = s1 - n;
+	while (*s2)
 	{
 		m = m + 1;
-		str2 = str2 + 1;
+		s2 = s2 + 1;
 	}
-	str2 = str2 - m;
+	s2 = s2 - m;
 	new_str = maloc(sizeof(char) * (m + n + 1));
 	if (new_str == NULL)
 	{
