@@ -3,14 +3,14 @@
 /**
  * str_concat - put str1 after str2.
  *
- * @str1: the first string.
- * @str2: the second string.
+ * @s1: the first string.
+ * @s2: the second string.
  * Return: a pointer on a new sting that concatenates the two strings.
  */
 
 char *str_concat(char *s1, char *s2)
 {
-	int n=0, m=0, i=0;
+	int n = 0, m = 0, i;
 	char *new_str;
 
 	if (s1 == NULL)
@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (; i < n + m + 1; i++)
+	for (i=0; i < n + m + 1; i++)
 	{
 		if (i < n)
 		{	
@@ -46,7 +46,7 @@ char *str_concat(char *s1, char *s2)
 		}
 		else
 		{
-			new_str[i]=s2[i - n];
+			new_str[i] = s2[i - n];
 		}
 	}
 	return (new_str);
