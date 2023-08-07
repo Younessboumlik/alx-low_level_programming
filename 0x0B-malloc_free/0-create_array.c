@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (i = 0; i = (size-1); i++)
+		for (i = 0; i < size; i++)
 		{
 			table[i] = c;
 		}
