@@ -11,8 +11,8 @@
 char *create_array(unsigned int size, char c)
 {
 	char *table;
-	table = malloc(sizeof(char) * (size));
 	int i;
+	table = malloc(sizeof(char) * (size));
 
 	if (size == 0)
 	{
@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (i=0; i=size-1; i++)
+		for (i = 0; i = (size-1); i++)
 		{
 			table[i] = c;
 		}
