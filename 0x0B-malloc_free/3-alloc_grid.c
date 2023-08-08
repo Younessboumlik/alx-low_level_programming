@@ -10,8 +10,7 @@
 
 int **alloc_grid(int width, int height)
 {
-	char **tab1;
-	int i,j;
+	int i, j, **tab1;
 
 	if (width <= 0 || height <= 0)
 	{
@@ -23,7 +22,7 @@ int **alloc_grid(int width, int height)
 	{
 		tab1[i] = (int *)malloc(sizeof(int) * width);
 	}
-	if (tab == NULL)
+	if (tab1 == NULL)
 	{
 		return NULL;
 	}
@@ -31,8 +30,8 @@ int **alloc_grid(int width, int height)
 	{
 		for (j = 0; j < width; j++)
 		{
-			tab[i][j] = 0;
+			tab1[i][j] = 0;
 		}
 	}
-	return (tab);
+	return (tab1);
 }
