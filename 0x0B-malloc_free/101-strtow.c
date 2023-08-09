@@ -12,7 +12,7 @@ char **strtow(char *str)
 	int n = 1, i = 0, j = 0, k = 0, lengh = 0;
 	char **result;
 
-	if ((str == NULL) || (str == ""))
+	if ((str == NULL) || (strcmp(str, "") == 0))
 	{
 		return (NULL);
 	}
@@ -36,7 +36,7 @@ char **strtow(char *str)
 		{
 			lengh = i - k;
 			result[j] = malloc(sizeof(char) * (lengh + 1));
-			if (result[j] = NULL)
+			if (result[j] == NULL)
 			{
 				return (NULL);
 			}
@@ -49,7 +49,7 @@ char **strtow(char *str)
 	}
 	lengh = i - k;
 	result[j] = (char *)malloc(sizeof(char) * (lengh + 1));
-	if (result[j] = NULL)
+	if (result[j] == NULL)
 	{
 		return (NULL);
 	}
