@@ -25,7 +25,7 @@ char *argstostr(int ac, char **av)
 		total_length += strlen(av[i]) + 1;
 	}
 
-	result = (char *)malloc(total_length * sizeof(char));
+	result = (char *)malloc((total_length+1) * sizeof(char));
 
 	if (result == NULL)
 	{
@@ -37,6 +37,6 @@ char *argstostr(int ac, char **av)
 		current_position += strlen(av[i]);
 		result[current_position++] = '\n';
 	}
-	result[current_position+1] = '\0';
+	result[current_position] = '\0';
 	return (result);
 }
