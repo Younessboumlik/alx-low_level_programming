@@ -1,3 +1,11 @@
+#include "main.h"
+/**
+ * strtow - transoform a string to a table of chars. 
+ *
+ * @str: the string. 
+ * Return: an array of strings.
+ */
+
 char **strtow(char *str)
 {
 	int n = 0, i = 0, j = 0, k = 0, lengh = 0;
