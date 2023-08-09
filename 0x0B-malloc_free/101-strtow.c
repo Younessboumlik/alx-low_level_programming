@@ -16,7 +16,6 @@ char **strtow(char *str)
 		return (NULL);
 	}
 
-	// Count the number of words
 	while(str[i] != '\0')
 	{
 		if ((str[i] != ' ') && ((i == 0) || (str[i - 1] == ' ')))
