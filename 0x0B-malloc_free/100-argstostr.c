@@ -19,10 +19,12 @@ char *argstostr(int ac, char **av)
 	}
 	char *result = (char *)malloc(total_length * sizeof(char));
 
-	if (result == NULL) {
+	if (result == NULL) 
+	{
 		return (NULL);
 	}
-	for (int i = 0; i < ac; i++) {
+	for (i = 0; i < ac; i++) 
+	{
 		strcpy(result + current_position, av[i]);
 		current_position += strlen(av[i]);
 		result[current_position++] = '\n';
