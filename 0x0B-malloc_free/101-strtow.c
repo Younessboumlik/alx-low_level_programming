@@ -58,7 +58,7 @@ char *get_next_word(char *str, int *start, int *end)
  * strtow - Splits a string into words.
  * @str: The string to split.
  *
- * Return: A pointer to an array of strings (words), 
+ * Return: A pointer to an array of strings (words).
  */
 char **strtow(char *str)
 {
