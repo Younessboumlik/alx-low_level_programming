@@ -1,4 +1,4 @@
-#include "mmain.h"
+#include "main.h"
 
 /**
  * strtow - transoform a string to a table of chars.
@@ -36,10 +36,12 @@ char **strtow(char *str)
 		{
 			lengh = i - k;
 			result[j] = malloc(sizeof(char) * (lengh + 1));
-			if (resukt[j] = NULL)
+			if (result[j] = NULL)
 			{
 				return (NULL);
 			}
+			strncpy(result[j], str + k, lengh);
+			result[j][lengh] = '\0';
 			j = j + 1;
 			k = i + 1;
  		}
@@ -47,9 +49,13 @@ char **strtow(char *str)
 	}
 	lengh = i - k;
 	result[j] = (char *)malloc(sizeof(char) * (lengh + 1));
-	if (resukt[j] = NULL)
+	if (result[j] = NULL)
 	{
 		return (NULL);
 	}
+	strncpy(result[j], str + k, lengh);
+	result[j][lengh] = '\0';
+	result[n] = NULL;
 
+	return (result);
 }
