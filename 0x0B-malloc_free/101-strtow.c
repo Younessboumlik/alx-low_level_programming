@@ -71,6 +71,18 @@ char **strtow(char *str)
 
 	count = count_words(str);
 
+	if (count == 0)
+	{
+		words = malloc(sizeof(char *) * 2);
+		if (words == NULL)
+			return (NULL);
+		words[0] = strdup("Failed");
+		if (words[0] == NULL)
+			return (NULL);
+		words[1] = NULL;
+		return (words);
+	}
+
 	/* Allocate memory for the array of words */
 	words = malloc(sizeof(char *) * (count + 1));
 	if (words == NULL)
