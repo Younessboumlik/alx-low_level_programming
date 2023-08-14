@@ -1,5 +1,5 @@
 #include "main.h"
-#include <atdio.h>
+#include <stdio.h>
 
 /**
  * print_dog - print a dog variable infos.
