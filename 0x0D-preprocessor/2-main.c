@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+void main(void)
 {
 	printf("%s\n",__FILE__);
 }
