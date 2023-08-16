@@ -8,15 +8,9 @@
  * Return: nothing.
  */
 
-void print(char *name)
-{
-	while(*name)
-	{
-		_putchar(*(name));
-		name = name + 1;
-	}
-}
 void print_name(char *name, void (*f)(char *))
 {
-	f(name);
+	if (name != NULL && f != NULL)
+
+		f(name);
 }
