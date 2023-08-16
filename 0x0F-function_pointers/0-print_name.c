@@ -8,7 +8,7 @@
  * Return: nothing.
  */
 
-void f(char *name)
+void print(char *name)
 {
 	while(*name)
 	{
