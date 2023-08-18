@@ -22,7 +22,7 @@ int sum_them_all(const unsigned int n, ...)
 		va_start(ptr, n);
 		for (; i < n; i++)
 		{
-			sum = sum + var_arg(ptr, int);
+			sum = sum + va_arg(ptr, int);
 		}
 		va_end(ptr);
 		return (sum);
