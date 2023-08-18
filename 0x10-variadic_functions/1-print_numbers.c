@@ -9,22 +9,19 @@
  */
 
 
-void print_strings(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	char *str;
 	unsigned int i;
-	va_list ptr;
+	va_list ap;
 
-	va_start(ptr, n);
+	va_start(ap, n);
+
 	if (separator == NULL)
 		separator = "";
 
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(ptr, char*);
-		if (str == NULL)
-			str = "(nil)";
-		printf("%s", str);
+		printf("%d", va_arg(ap, int));
 		if (i < n - 1)
 			printf("%s", separator);
 	}
