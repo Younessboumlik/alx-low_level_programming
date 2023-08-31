@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * binary_to_uint - convert binary to int.
+ * power - calculate the power.
  *
- * @b: the binary number.
- * Return: an unsigned int.
+ * @base: the base.
+ * @pow: the power.
+ * Return: the power.
  */
+
 unsigned int power(unsigned int base, unsigned int pow)
 {
 	unsigned long int num;
@@ -16,6 +18,13 @@ unsigned int power(unsigned int base, unsigned int pow)
 		num *= base;
 	return (num);
 }
+
+/**
+ * binary_to_uint - convert binary to int.
+ *
+ * @b: the binary number.
+ * Return: an unsigned int.
+ */
 
 unsigned int binary_to_uint(const char *b)
 {
@@ -38,7 +47,7 @@ unsigned int binary_to_uint(const char *b)
 		{
 			return (0);
 		}
-		result = result +((*b) - '0') * power(2,(n-j-1)) ;
+		result = result + ((*b) - '0') * power(2, (n - j - 1));
 		j = j + 1;
 		b = b + 1;
 	}
