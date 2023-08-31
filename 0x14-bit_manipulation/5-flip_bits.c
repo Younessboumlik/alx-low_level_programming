@@ -13,7 +13,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	differnce = n ^ m;
 	for (; i < (sizeof(unsigned long int) * 8); i++)
 	{
-		if (result == (differnce & mask))
+		if (mask == (differnce & mask))
 			j++;
 		mask <<= 1;
 	}
