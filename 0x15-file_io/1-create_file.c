@@ -10,12 +10,12 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int open, write, i, close;
+	int opening, writing, i, closing;
 
 	if (filename == NULL)
 		return (-1);
-	open = open(filename, O_WRONLY | O_TRUNC | O_CREAT, 0600);
-	if (open == -1)
+	opening = open(filename, O_WRONLY | O_TRUNC | O_CREAT, 0600);
+	if (opening == -1)
 		return (-1);
 	if (text_content == NULL)
 	{
@@ -27,11 +27,11 @@ int create_file(const char *filename, char *text_content)
 		while (text_content[i] != '\0')
 			i++;
 	}
-	write = write(open, text_content, i);
-	if (write == -1)
+	writing = write(opening, text_content, i);
+	if (writing == -1)
 		return (-1);
-	close = close(open);
-	if (close == -1)
+	closing = close(opening);
+	if (closing == -1)
 		return (-1);
 	return (1);
 }
