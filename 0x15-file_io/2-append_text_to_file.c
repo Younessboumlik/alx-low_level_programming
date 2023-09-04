@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * append_text_to_file - addint text to the file.
+ *
+ * @filename: tha name of file.
+ * @text_content: the content of the text.
+ * Return: 1 if it works, and -1 if not.
+ */
+
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int i = 0, o, w;
