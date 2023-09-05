@@ -1,3 +1,4 @@
+#include "main.h"
 #define BUFFER_SIZE 1024
 
 void close_file(int fd, char *file);
